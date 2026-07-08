@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" role="img" aria-label="EchoVratsa V logo">
+  <defs>
+    <linearGradient id="body" x1="28" x2="126" y1="14" y2="134" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071F3E"/>
+      <stop offset="0.54" stop-color="#09203B"/>
+      <stop offset="1" stop-color="#081731"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="43" x2="112" y1="21" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#01DFBF"/>
+      <stop offset="0.42" stop-color="#06A89D"/>
+      <stop offset="1" stop-color="#14DDC0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="url(#body)" d="M20 12h39l17 71 18-71h36l-33 126H55L20 12Z"/>
+  <path fill="url(#accent)" filter="url(#glow)" d="M41 27h23l14 64 16-64h23L91 123H65L41 27Z"/>
+  <path fill="#081731" opacity=".82" d="M58 42h11l11 52 13-52h10l-18 67H73L58 42Z"/>
+  <path fill="none" stroke="#14DDC0" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M48 33 70 116h18l25-83"/>
+  <path fill="none" stroke="#14DDC0" stroke-linecap="round" stroke-width="2.4" d="M68 55H43m48 18h28M75 103H51m37 17h24"/>
+  <circle cx="43" cy="55" r="4.5" fill="#14DDC0"/>
+  <circle cx="119" cy="73" r="4.5" fill="#14DDC0"/>
+  <circle cx="51" cy="103" r="4" fill="#14DDC0"/>
+  <circle cx="112" cy="120" r="4" fill="#14DDC0"/>
+  <circle cx="75" cy="103" r="3.2" fill="#EDE6D6"/>
+</svg>

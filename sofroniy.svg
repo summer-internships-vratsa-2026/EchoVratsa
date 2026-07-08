@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Софроний Врачански">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#efe7d4"/><stop offset="0.45" stop-color="#c97a3d"/><stop offset="1" stop-color="#201d3b"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" x2="1"><stop offset="0" stop-color="#5c7a5e"/><stop offset="1" stop-color="#0b3848"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.12"/></feComponentTransfer><feBlend mode="multiply" in2="SourceGraphic"/></filter>
+  </defs>
+  <rect width="900" height="520" fill="url(#sky)"/>
+  <circle cx="735" cy="96" r="52" fill="#efe7d4" opacity=".75"/>
+  <path d="M0 360 L90 270 L170 330 L250 220 L350 318 L440 180 L560 320 L675 245 L810 350 L900 285 L900 520 L0 520Z" fill="#16142a" opacity=".75"/>
+  <path d="M0 410 L125 318 L250 375 L365 295 L510 398 L640 300 L780 408 L900 340 L900 520 L0 520Z" fill="url(#hill)" opacity=".96"/>
+  <rect x="50" y="52" width="800" height="416" rx="28" fill="none" stroke="#efe7d4" stroke-opacity=".45" stroke-width="3"/>
+  <text x="70" y="405" font-family="Georgia, serif" font-size="48" font-weight="700" fill="#efe7d4">Софроний Врачански</text>
+  <text x="72" y="445" font-family="Arial, sans-serif" font-size="22" fill="#efe7d4" opacity=".86">Възрожденски комплекс · preview изображение</text>
+  <rect width="900" height="520" filter="url(#grain)" opacity=".38"/>
+</svg>
