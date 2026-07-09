@@ -16,6 +16,9 @@ Static HTML/CSS/JS MVP for an AI tourist audio guide in Vratsa.
 - Product-ready wording: no visible demo/preview language in the app.
 - Phase 4 continuation: EchoGuide platform section is preserved and polished for scale.
 
+## Links
+- Live site: https://echo-vratsa.vercel.app/
+- GitHub repository: https://github.com/summer-internships-vratsa-2026/EchoVratsa
 ## Run
 Open `index.html` in a browser or run:
 

@@ -1107,7 +1107,7 @@ footer {
 
 .social-stack {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -1155,6 +1155,7 @@ footer {
   font-size: 13px;
 }
 
+.social-link.website span { background: #14DDC0; }
 .social-link.instagram span { background: #f0a7d7; }
 .social-link.facebook span { background: #9eb8ff; }
 .social-link.github span { background: var(--ember); }

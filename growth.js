@@ -38,6 +38,13 @@
     return fallback;
   }
 
+
+  function setSiteLink() {
+    document.querySelectorAll("[data-site-link]").forEach(link => {
+      link.href = siteUrl;
+      link.addEventListener("click", () => trackGrowthEvent("site_open"));
+    });
+  }
   function setSocialLinks() {
     document.querySelectorAll("[data-social-link]").forEach(link => {
       const key = link.dataset.socialLink;
@@ -88,6 +95,7 @@
     copySite: "Копирай линк",
     copyDone: "Линкът е копиран.",
     shareText: "Пробвай персонален аудио маршрут из Враца.",
+    socialWebsite: "Активен Vercel линк",
     socialInstagram: "Reels и stories",
     socialFacebook: "Постове и покани",
     socialGitHub: "Код и развитие"
@@ -104,6 +112,7 @@
     copySite: "Copy link",
     copyDone: "Link copied.",
     shareText: "Try a personalized audio route through Vratsa.",
+    socialWebsite: "Live Vercel link",
     socialInstagram: "Reels and stories",
     socialFacebook: "Posts and invites",
     socialGitHub: "Code and progress"
@@ -120,6 +129,7 @@
     copySite: "Link kopieren",
     copyDone: "Link kopiert.",
     shareText: "Teste eine personalisierte Audiotour durch Vratsa.",
+    socialWebsite: "Live-Vercel-Link",
     socialInstagram: "Reels and stories",
     socialFacebook: "Gruppen und Einladungen",
     socialGitHub: "Code und Fortschritt"
@@ -129,6 +139,7 @@
   installClarity(analytics.clarityProjectId);
 
   document.addEventListener("DOMContentLoaded", () => {
+    setSiteLink();
     setSocialLinks();
     document.getElementById("copy-site-btn")?.addEventListener("click", copySiteLink);
     document.getElementById("share-site-btn")?.addEventListener("click", shareSite);
