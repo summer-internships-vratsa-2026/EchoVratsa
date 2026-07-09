@@ -1,5 +1,5 @@
 window.ECHOVRATSA_CONFIG = {
-  siteUrl: "",
+  siteUrl: "https://echo-vratsa.vercel.app/",
   socialLinks: {
     instagram: "https://www.instagram.com/echovratsa/?hl=en",
     facebook: "https://www.facebook.com/profile.php?id=61591421355500",

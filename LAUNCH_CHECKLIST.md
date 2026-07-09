@@ -47,7 +47,7 @@
 - Instagram URL: https://www.instagram.com/echovratsa/?hl=en
 - Facebook URL: https://www.facebook.com/profile.php?id=61591421355500
 - GitHub repository URL: https://github.com/summer-internships-vratsa-2026/EchoVratsa
-- Vercel production URL:
+- Vercel production URL: https://echo-vratsa.vercel.app/
 - Google Analytics Measurement ID:
 - Microsoft Clarity Project ID:
 - Имейл за споделяне на достъп:
