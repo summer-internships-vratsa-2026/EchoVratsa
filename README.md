@@ -19,6 +19,8 @@ Static HTML/CSS/JS MVP for an AI tourist audio guide in Vratsa.
 ## Links
 - Live site: https://echo-vratsa.vercel.app/
 - GitHub repository: https://github.com/summer-internships-vratsa-2026/EchoVratsa
+- Google Analytics: `G-P8ZX9458CQ`
+- Microsoft Clarity: `xj3zr1fnz2`
 ## Run
 Open `index.html` in a browser or run:
 

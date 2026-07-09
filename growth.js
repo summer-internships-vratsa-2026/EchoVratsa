@@ -1,5 +1,17 @@
 (function initGrowthLayer() {
-  const config = window.ECHOVRATSA_CONFIG || {};
+  const fallbackConfig = {
+    siteUrl: "https://echo-vratsa.vercel.app/",
+    socialLinks: {
+      instagram: "https://www.instagram.com/echovratsa/?hl=en",
+      facebook: "https://www.facebook.com/profile.php?id=61591421355500",
+      github: "https://github.com/summer-internships-vratsa-2026/EchoVratsa"
+    },
+    analytics: {
+      googleAnalyticsId: "G-P8ZX9458CQ",
+      clarityProjectId: "xj3zr1fnz2"
+    }
+  };
+  const config = window.ECHOVRATSA_CONFIG || fallbackConfig;
   const siteUrl = config.siteUrl || window.location.href;
   const socialLinks = config.socialLinks || {};
   const analytics = config.analytics || {};

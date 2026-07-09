@@ -6,7 +6,7 @@ window.ECHOVRATSA_CONFIG = {
     github: "https://github.com/summer-internships-vratsa-2026/EchoVratsa"
   },
   analytics: {
-    googleAnalyticsId: "",
-    clarityProjectId: ""
+    googleAnalyticsId: "G-P8ZX9458CQ",
+    clarityProjectId: "xj3zr1fnz2"
   }
 };

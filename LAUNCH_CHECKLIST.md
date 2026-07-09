@@ -48,6 +48,6 @@
 - Facebook URL: https://www.facebook.com/profile.php?id=61591421355500
 - GitHub repository URL: https://github.com/summer-internships-vratsa-2026/EchoVratsa
 - Vercel production URL: https://echo-vratsa.vercel.app/
-- Google Analytics Measurement ID:
-- Microsoft Clarity Project ID:
+- Google Analytics Measurement ID: G-P8ZX9458CQ
+- Microsoft Clarity Project ID: xj3zr1fnz2
 - Имейл за споделяне на достъп:
