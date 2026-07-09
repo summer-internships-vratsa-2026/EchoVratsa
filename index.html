@@ -247,6 +247,46 @@
   </div>
 </section>
 
+<section id="growth" class="growth-section">
+  <div class="section-head">
+    <p class="eyebrow" data-i18n="growthEyebrow">Реални потребители</p>
+    <h2 data-i18n="growthTitle">Присъедини се към EchoVratsa pilot</h2>
+    <p data-i18n="growthText">Покани приятели, съученици и туристи да пробват маршрута, да споделят обратна връзка и да помогнат проектът да стигне до първите си реални потребители.</p>
+  </div>
+
+  <div class="growth-panel">
+    <div class="growth-copy">
+      <span class="label small" data-i18n="growthPilotLabel">Pilot target</span>
+      <strong data-i18n="growthPilotTitle">50 реални тестера във Враца</strong>
+      <p data-i18n="growthPilotText">Фокусът е кратък: QR линк към сайта, 7-дневна кампания в социалните мрежи и събиране на реални посещения, споделяния и коментари.</p>
+
+      <div class="growth-actions">
+        <button class="mini-btn" id="share-site-btn" type="button" data-i18n="shareSite">Сподели сайта</button>
+        <button class="mini-btn ghost" id="copy-site-btn" type="button" data-i18n="copySite">Копирай линк</button>
+      </div>
+      <span class="share-feedback" id="share-feedback" aria-live="polite"></span>
+    </div>
+
+    <div class="social-stack" aria-label="EchoVratsa social channels">
+      <a class="social-link instagram" data-social-link="instagram" href="https://www.instagram.com/echovratsa/?hl=en" target="_blank" rel="noopener noreferrer">
+        <span>IG</span>
+        <strong>Instagram</strong>
+        <small data-i18n="socialInstagram">Reels и stories</small>
+      </a>
+      <a class="social-link facebook" data-social-link="facebook" href="https://www.facebook.com/profile.php?id=61591421355500" target="_blank" rel="noopener noreferrer">
+        <span>FB</span>
+        <strong>Facebook</strong>
+        <small data-i18n="socialFacebook">Постове и покани</small>
+      </a>
+      <a class="social-link github" data-social-link="github" aria-disabled="true">
+        <span>GH</span>
+        <strong>GitHub</strong>
+        <small data-i18n="socialGitHub">След качване в repository</small>
+      </a>
+    </div>
+  </div>
+</section>
+
 <div class="ar-modal" id="ar-modal" hidden>
   <div class="ar-frame">
     <button class="ar-close" id="ar-close-btn" type="button">×</button>
@@ -266,7 +306,9 @@
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="config.js"></script>
 <script src="data.js"></script>
 <script src="script.js?v=11-full-bg-audio"></script>
+<script src="growth.js?v=1"></script>
 </body>
 </html>
