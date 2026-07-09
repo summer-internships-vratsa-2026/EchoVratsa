@@ -25,13 +25,13 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 ## GitHub upload
-Project files live in the root folder, and media files are organized in `assets/`, so the repository should include `index.html`, `style.css`, `script.js`, `data.js`, `config.js`, `growth.js`, `README.md`, `SOCIAL_MEDIA_PLAN.md`, and the full `assets/` folder.
+Project files live in the root folder, and media files are organized in `assets/`, so the repository should include `index.html`, `style.css`, `script.js`, `data.js`, `site-settings.js`, `growth.js`, `README.md`, `SOCIAL_MEDIA_PLAN.md`, and the full `assets/` folder.
 
 ## Launch checklist
-- Real social links, public site URL, Google Analytics ID and Microsoft Clarity ID should be filled in `config.js` after the accounts are created.
+- Real social links, public site URL, Google Analytics ID and Microsoft Clarity ID should be filled in `site-settings.js` after the accounts are created.
 - Vercel should point to the chosen GitHub repository and deploy the `main` branch.
-- Google Analytics needs a GA4 Web stream for the deployed Vercel URL; paste the Measurement ID that starts with `G-` into `config.js`.
-- Microsoft Clarity needs a project for the deployed Vercel URL; paste the Clarity project ID into `config.js`.
+- Google Analytics needs a GA4 Web stream for the deployed Vercel URL; paste the Measurement ID that starts with `G-` into `site-settings.js`.
+- Microsoft Clarity needs a project for the deployed Vercel URL; paste the Clarity project ID into `site-settings.js`.
 - Access should be shared in GitHub, Vercel, Google Analytics and Microsoft Clarity with the evaluation email.
 
 ## Growth assets

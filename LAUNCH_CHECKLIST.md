@@ -1,34 +1,34 @@
 # EchoVratsa launch checklist
 
 ## 0. Реални профили
-- Instagram и Facebook профилите вече са въведени в `config.js`.
+- Instagram и Facebook профилите вече са въведени в `site-settings.js`.
 - Не добавяйте канали, които няма да използвате реално.
-- При промяна на профилите обновете реалните URL-и в `config.js`.
+- При промяна на профилите обновете реалните URL-и в `site-settings.js`.
 - Не оставяйте placeholder или измислени social links в публичната версия.
 
 ## 1. GitHub repository
 - Качете цялата папка `D:\v2\the end` в избраното GitHub хранилище.
-- В repository-то трябва да присъстват: `index.html`, `style.css`, `script.js`, `data.js`, `config.js`, `growth.js`, `README.md`, `SOCIAL_MEDIA_PLAN.md`, `LAUNCH_CHECKLIST.md` и цялата папка `assets/`.
+- В repository-то трябва да присъстват: `index.html`, `style.css`, `script.js`, `data.js`, `site-settings.js`, `growth.js`, `README.md`, `SOCIAL_MEDIA_PLAN.md`, `LAUNCH_CHECKLIST.md` и цялата папка `assets/`.
 - Проверете дали repository-то е public, ако оценяващите трябва да го отворят без покана.
-- След качване попълнете GitHub линка в `config.js`.
+- След качване попълнете GitHub линка в `site-settings.js`.
 
 ## 2. Vercel deploy
 - Свържете избраното GitHub repository с Vercel.
 - Project type: static site / no framework.
 - Build command: празно.
 - Output directory: празно или `.`.
-- След deploy копирайте production URL и го сложете в `config.js` като `siteUrl`.
+- След deploy копирайте production URL и го сложете в `site-settings.js` като `siteUrl`.
 
 ## 3. Google Analytics
 - Създайте GA4 Web stream за production URL от Vercel.
 - Копирайте Measurement ID, който започва с `G-`.
-- Поставете го в `config.js` като `googleAnalyticsId`.
+- Поставете го в `site-settings.js` като `googleAnalyticsId`.
 - След deploy проверете Realtime report и направете screenshot за доказателство.
 
 ## 4. Microsoft Clarity
 - Създайте Clarity project за production URL от Vercel.
 - Копирайте Clarity project ID.
-- Поставете го в `config.js` като `clarityProjectId`.
+- Поставете го в `site-settings.js` като `clarityProjectId`.
 - След deploy проверете дали се появяват sessions/recordings и направете screenshot.
 
 ## 5. Достъп за оценяване

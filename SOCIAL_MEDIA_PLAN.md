@@ -2,7 +2,7 @@
 
 Цел: първо да създадем реални канали на проекта, после да докараме реални потребители към сайта и да съберем доказателства за оценяването.
 
-Важно: Instagram и Facebook профилите вече са добавени в `config.js`. GitHub, Vercel, Google Analytics и Microsoft Clarity се попълват, когато са готови.
+Важно: Instagram и Facebook профилите вече са добавени в `site-settings.js`. GitHub, Vercel, Google Analytics и Microsoft Clarity се попълват, когато са готови.
 
 ## Канали за създаване
 - Instagram: Reels, stories с анкети, снимки от маршрута, repost на потребители.
