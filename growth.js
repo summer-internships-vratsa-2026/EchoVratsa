@@ -90,7 +90,7 @@
     shareText: "Пробвай персонален аудио маршрут из Враца.",
     socialInstagram: "Reels и stories",
     socialFacebook: "Постове и покани",
-    socialGitHub: "След качване в repository"
+    socialGitHub: "Код и развитие"
   });
 
   Object.assign(I18N.en, {
@@ -106,7 +106,7 @@
     shareText: "Try a personalized audio route through Vratsa.",
     socialInstagram: "Reels and stories",
     socialFacebook: "Posts and invites",
-    socialGitHub: "After repository upload"
+    socialGitHub: "Code and progress"
   });
 
   Object.assign(I18N.de, {
@@ -122,7 +122,7 @@
     shareText: "Teste eine personalisierte Audiotour durch Vratsa.",
     socialInstagram: "Reels and stories",
     socialFacebook: "Gruppen und Einladungen",
-    socialGitHub: "Nach Repository-Upload"
+    socialGitHub: "Code und Fortschritt"
   });
 
   installGoogleAnalytics(analytics.googleAnalyticsId);
